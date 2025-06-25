@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Silent Winds Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f9f5f1;
+      color: #333;
+      padding: 2em;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.2em;
+      color: #666;
+    }
+    .gallery-sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5em;
+      margin-top: 2em;
+    }
+    .section-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5em;
+      transition: transform 0.2s;
+    }
+    .section-card:hover {
+      transform: translateY(-3px);
+    }
+    .section-card h2 {
+      margin-top: 0;
+      color: #4c3a2d;
+    }
+    .section-card p {
+      font-size: 0.95em;
+    }
+    a {
+      text-decoration: none;
+      color: #4c3a2d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Silent Winds Gallery</h1>
+    <p>Curated by Clara Vocks — Where thought and image meet in whispered brilliance.</p>
+  </header>
 
+  <div class="gallery-sections">
+    <div class="section-card">
+      <h2><a href="fantasy.html">Fantasy</a></h2>
+      <p>Visions from the edges of dreams—whimsical, wondrous, and strangely familiar.</p>
+    </div>
+    <div class="section-card">
+      <h2><a href="humor.html">Humor</a></h2>
+      <p>Wit in brushstrokes. Each piece draws you in with a smile and leaves you thinking.</p>
+    </div>
+    <div class="section-card">
+      <h2><a href="surreal.html">Surrealism</a></h2>
+      <p>Art that bends time, space, and sense—asking what’s real, and what’s revealed.</p>
+    </div>
+    <div class="section-card">
+      <h2><a href="leaders.html">Political Leaders</a></h2>
+      <p>Portraits and parodies that hold power up to the light—reflecting what we choose to see.</p>
+    </div>
+    <div class="section-card">
+      <h2><a href="stillness.html">Stillness & Strength</a></h2>
+      <p>Quiet moments captured with grace—where resilience whispers louder than noise.</p>
+    </div>
+  </div>
+</body>
+</html>
