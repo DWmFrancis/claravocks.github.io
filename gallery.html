@@ -1,20 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Silent Winds Gallery</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Silent Winds Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+    header { background: #222; color: white; padding: 1rem; text-align: center; }
+    section { padding: 2rem; }
+    h2 { color: #333; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+    .gallery-item { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.1); text-align: center; }
+    .gallery-item img { max-width: 100%; border-radius: 4px; height: auto; }
+    .gallery-item a { text-decoration: none; color: #0066cc; display: block; margin-top: 0.5rem; font-weight: bold; }
+  </style>
 </head>
 <body>
+  <header>
     <h1>Silent Winds Gallery</h1>
-
-    <section class="gallery-section">
-      <h2>5. Realism & Devotion</h2>
-      <ul>
-        <li><a href="realism/jaguar-at-brands-hatch.html">Jaguar at Brands Hatch</a></li>
-        <li><a href="realism/54-squadron-homage.html">54 Squadron Homage</a></li>
-      </ul>
+  </header>
+  <main>
+    <section>
+      <h2>Surrealism & Symbol</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/surreal_placeholder.jpg" alt="Surreal Image" />
+          <a href="surreal/surreal-placeholder.html">Placeholder Entry</a>
+        </div>
+      </div>
     </section>
+
+    <section>
+      <h2>Humor & Satire</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/humor_placeholder.jpg" alt="Humor Image" />
+          <a href="humor/humor-placeholder.html">Placeholder Entry</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Political & Civic Life</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/civic_placeholder.jpg" alt="Civic Image" />
+          <a href="civic/civic-placeholder.html">Placeholder Entry</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Fantasy & Whimsy</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/fantasy_placeholder.jpg" alt="Fantasy Image" />
+          <a href="fantasy/fantasy-placeholder.html">Placeholder Entry</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Realism & Devotion</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/jaguar-at-brands-hatch.jpg" alt="Jaguar at Brands Hatch" />
+          <a href="realism/jaguar-at-brands-hatch.html">Jaguar at Brands Hatch</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/54-squadron-homage.jpeg" alt="54 Squadron Homage" />
+          <a href="realism/54-squadron-homage.html">54 Squadron Homage</a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
